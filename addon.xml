@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.startRetroPie" name="Start RetroPie" version="1.0.0" provider-name="mellotainca">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="xbmc.gui" version="5.0.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Restart the Pi booting into RetroPie emulator manager</summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3</license>
+        <forum></forum>
+        <website></website>
+        <email>mellotanica@hotmail.it</email>
+        <source>https://github.com/mellotanica/plugin.video.startRetroPie</source>
+  </extension>
+</addon>
